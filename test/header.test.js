@@ -23,7 +23,6 @@ test('should start google OAuth flow.', async () => {
 test('should have logout route for logged in users.', async () => {
     await page.login()
     await page.goto('http://localhost:3000')
-    // await page.waitFor('a[href="/auth/logout"]')
     const logoutBtnText = await page.getInnerHTML('a[href="/auth/logout"]')
     expect(logoutBtnText).toEqual('Logout')
 })
