@@ -1,0 +1,8 @@
+node_modules/*
+nohup.out
+.DS_Store
+.idea
+client/node_modules/*
+dump.rdb
+package-lock.json
+config
