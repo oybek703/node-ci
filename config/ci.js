@@ -5,4 +5,4 @@ module.exports = {
     mongoURI: 'mongodb://127.0.0.1:27017/blogster',
     cookieKey: 'cookie321',
     redisURL: 'redis://127.0.0.1:6379'
-};
+}
