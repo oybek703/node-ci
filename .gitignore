@@ -5,5 +5,4 @@ nohup.out
 client/node_modules/*
 dump.rdb
 package-lock.json
-config
 client/package-lock.json
